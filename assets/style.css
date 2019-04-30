@@ -1,8 +1,31 @@
-* {
-  outline: 1px solid red;
-}
-
-
 h2 {
   color: rgb(59, 59, 118); 
+}
+
+address {
+  background-color: rgb(59, 59, 118);
+  color: white;
+}
+
+address ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+address li {
+  padding: 10px 20px
+}
+
+section>header {
+    color: rgb(59, 59, 118); 
+}
+
+#skills ul {
+  column-count: 3;
+  list-style: none;
+}
+
+#skill li {
+  padding: 5px 0px;
 }
